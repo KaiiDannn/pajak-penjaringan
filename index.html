@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sistem Informasi Pajak Daerah – UP3D Penjaringan</title>
+<style>
+:root{--bg:#f3f7f8;--card:#fff;--ink:#12262e;--mut:#51666e;--line:#d3dfe3;--ac:#0e6b88;--on:#fff}
+@media (prefers-color-scheme:dark){:root{--bg:#0d1a20;--card:#14262e;--ink:#e6f0f3;--mut:#9fb4bc;--line:#2a414b;--ac:#5cc4e0;--on:#06222b}}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif}
+main{max-width:860px;margin:0 auto;padding:32px 16px}
+h1{font-size:clamp(1.5rem,4vw,2rem);line-height:1.25;margin:0 0 6px}
+p{color:var(--mut);margin:0 0 20px}
+.grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(230px,1fr))}
+a.card{display:block;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px;color:var(--ink);text-decoration:none}
+a.card:hover,a.card:focus-visible{border-color:var(--ac);outline:2px solid var(--ac);outline-offset:2px}
+a.card b{display:block;color:var(--ac);margin-bottom:4px}
+</style>
+</head>
+<body>
+<main>
+<h1>Sistem Informasi Pajak Daerah</h1>
+<p>UP3D Wilayah Kecamatan Penjaringan. Hasil kalkulator berupa estimasi dan bukan ketetapan resmi.</p>
+<div class="grid">
+<a class="card" href="kalkulator/pbb.html"><b>Kalkulator PBB-P2</b>Estimasi PBB-P2 dari data SPPT.</a>
+<a class="card" href="kalkulator/bphtb.html"><b>Kalkulator BPHTB</b>Estimasi BPHTB atas perolehan hak tanah dan bangunan.</a>
+<a class="card" href="kalkulator/reklame.html"><b>Kalkulator Pajak Reklame</b>Estimasi pajak reklame menurut jenis dan ukuran.</a>
+</div>
+</main>
+</body>
+</html>
